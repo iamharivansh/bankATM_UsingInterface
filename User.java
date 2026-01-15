@@ -27,6 +27,13 @@ public class User {
 		user3.checkbal();
 		
 		
+		System.out.println("-----");
+		ATM_Powai hdfc1 = new HDFC_Bank();
+		hdfc1.checkbal();
+		hdfc1.deposit(55000);
+		hdfc1.withdraw(5000);
+		hdfc1.checkbal();
+		
 
 	}
 
